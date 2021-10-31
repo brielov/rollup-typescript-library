@@ -11,7 +11,7 @@ const bundle = (config) => ({
 
 export default [
   bundle({
-    plugins: [esbuild()],
+    plugins: [esbuild({ minify: true })],
     output: [
       {
         file: `${name}.js`,
