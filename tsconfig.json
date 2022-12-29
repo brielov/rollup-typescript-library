@@ -2,6 +2,7 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
     "lib": ["esnext"],
     "module": "esnext",
     "noImplicitAny": true,

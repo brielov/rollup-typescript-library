@@ -1,6 +1,6 @@
  {
   "**/*.ts": [
     "eslint --fix --max-warnings 0",
-    "jest --findRelatedTests"
+    "vitest --run related"
   ]
 }

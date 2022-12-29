@@ -1,3 +1,4 @@
+import { it, expect } from "vitest";
 import { add } from "./my-lib";
 
 it("works", () => {
